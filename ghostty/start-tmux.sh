@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Имя сессии
-SESSION_NAME="main"
+SESSION_NAME="tmux"
 
 # Проверяем, запущена ли уже сессия Tmux
 if tmux has-session -t "$SESSION_NAME" 2>/dev/null; then
